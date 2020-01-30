@@ -34,11 +34,13 @@ Alternatively you can ssh into the running vagrant machine with: ssh -i ~/.vagra
 4. Choose Remote-SSH -> Open Configuration File ...\\.ssh\config
 5. This will open your ssh configuration file, edit it to contain the following configuration
 
+~~~~
 Host localhost
   HostName localhost
   User vagrant
   Port 2222
   IdentityFile ~/.vagrant.d/insecure_private_key
+~~~~
 
 6. After saving it, click on the green box again and choose Remote-SSH Connect to Host
 7. Choose localhost
