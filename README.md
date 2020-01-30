@@ -26,7 +26,7 @@ After vagrant finished provisionining you can log into the machine by typing "va
 
 Alternatively you can ssh into the running vagrant machine with: ssh -i ~/.vagrant.d/insecure_private_key vagrant@localhost -p 2222
 
-## Setting uo your IDE
+## Setting up your IDE
 
 1. Download and install Visual Studio Code from https://code.visualstudio.com/
 2. Start it and install "Remote SSH" extension
